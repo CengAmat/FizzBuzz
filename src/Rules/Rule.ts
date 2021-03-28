@@ -29,3 +29,13 @@ export class FizzBuzzRule implements RuleInterface {
     return "FizzBuzz";
   }
 }
+
+export class EvenNumberRule implements RuleInterface {
+    matches(number: number) : boolean {
+      return number % 2 === 0;
+    }
+  
+    getReplacement(): string {
+      return "Even";
+    }
+  }
