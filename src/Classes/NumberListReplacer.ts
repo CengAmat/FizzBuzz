@@ -1,7 +1,7 @@
 import RuleInterface from "../Interfaces/RuleInterface";
 
 
-export class FizzBuzz {
+export class NumberListReplacer {
     rules: RuleInterface[] = [];
 
     addRule(rule: RuleInterface) {
